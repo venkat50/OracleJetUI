@@ -1,0 +1,26 @@
+<!--
+ Copyright (c) 2014, 2017, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+-->
+<div class="oj-hybrid-padding">
+
+    <table id="table" summary="Customers List" aria-label="Customers Table"
+           data-bind="ojComponent: {component: 'ojTable', 
+                                data: datasource, 
+                                columnsDefault: {sortable: 'none'}, 
+                                columns: [{headerText: 'Customer Id', 
+                                           field: 'id'},
+                                          {headerText: 'First Name', 
+                                           field: 'firstName'},
+                                       {headerText: 'Last Name', 
+                                           field: 'lastName'},
+                                       {headerText: 'Email', 
+                                           field: 'email'},
+                                       {headerText: 'City', 
+                                           field: 'city'},
+                                       {headerText: 'State', 
+                                           field: 'state'},
+                                          {headerText: 'DOB', 
+                                           field: 'birthday'}]}">
+    </table>
+</div>
