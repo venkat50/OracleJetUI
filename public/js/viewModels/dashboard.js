@@ -13,7 +13,7 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojknockout', 'ojs/ojchart'],
             var barSeries = [{items: []}];
             function ChartModel() {
                 var self = this;
-                var url = "http://private-7de07-venkat50.apiary-mock.com/questions";
+                var url = "https://private-7de07-venkat50.apiary-mock.com/questions";
                 /* toggle button variables */
                 self.stackValue = ko.observable('off');
                 self.orientationValue = ko.observable('vertical');
