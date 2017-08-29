@@ -14,7 +14,7 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojknockout', 'ojs/ojchart'],
             function ChartModel() {
                 var self = this;
                 var url = "https://private-7de07-venkat50.apiary-mock.com/questions";
-                console.log("TEST: "+ url)
+                
                 /* toggle button variables */
                 self.stackValue = ko.observable('off');
                 self.orientationValue = ko.observable('vertical');
