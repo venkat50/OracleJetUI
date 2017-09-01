@@ -10,8 +10,9 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojmodel', 'ojs/ojknockout', 'oj
 
             function CustomerViewModel() {
                 var self = this;
-                self.url = "https://jerseyservicedemo-gse00002014.apaas.em2.oraclecloud.com/myapp/customers/all";
+                //self.url = "https://jerseyservicedemo-gse00002014.apaas.em2.oraclecloud.com/myapp/customers/all";
                 //self.url = "http://localhost:8080/myapp/customers/all";
+                self.url = "https://private-5b9c1e-customers33.apiary-proxy.com/myapp/customers/all"
 
 
 
